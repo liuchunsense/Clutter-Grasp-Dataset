@@ -20,7 +20,7 @@ This paper has been accepted by *IEEE Trans. Ind. Electron*.
 
 ## 1 dataset
 
-The dataset is publiced on https://drive.google.com/drive/folders/1knXlR72Z_5OcE9_lVfTz-QOZRhtWB_Yj?usp=sharing。
+The dataset is publiced on https://drive.google.com/drive/folders/1knXlR72Z_5OcE9_lVfTz-QOZRhtWB_Yj?usp=sharing.
 
 ### 1.1 clutter
 
@@ -32,7 +32,7 @@ The zip file contains two kinds of files：`pcd*Label.txt`, `pcd*r.png`.
 
 The grasp point is composed of y and x.
 
-The grasp angles is composed of `0/1/2` angle values。When formula (5) is satisfied, the grasp angles contains `0` angle values, When formula (3) is satisfied, the grasp angles contains `1` angle values, When formula (4) is satisfied, the grasp angles contains `2` angle values, and their difference is $\pi$.
+The grasp angles is composed of `0/1/2` angle values. When formula (5) is satisfied, the grasp angles contains `0` angle values, When formula (3) is satisfied, the grasp angles contains `1` angle values, When formula (4) is satisfied, the grasp angles contains `2` angle values, and their difference is $\pi$.
 
 The grasp width is a value in pixels.
 
@@ -61,7 +61,7 @@ The format of files is the same as `clutter.zip`.
 
 ### 1.3 train-test.zip
 
-The zip file contains four folders：train-test-all、train-test-cornell、train-test-mutil、train-test-single。
+The zip file contains four folders：train-test-all、train-test-cornell、train-test-mutil、train-test-single.
 
 They save the test set and train set allocation when using the following four types of samples for training:
 
