@@ -1,5 +1,23 @@
 # Clutter-Grasp-Dataset
 
+## AFFGA-Net
+
+The AFFGA-Net is a high performance network which predicts the quality and pose of grasps at every pixel in an input RGB image. 
+
+This repository contains the data set used to train AFFGA-Net and the program for labeling the grasp model.
+
+
+
+**High-performance Pixel-level Grasp Detection based on Adaptive Grasping and Grasp-aware Network**
+
+Dexin Wang, Chunsheng Liu, Faliang Chang, and Nanjun Li
+
+This paper has been accepted by *IEEE Trans. Ind. Electron*.
+
+[TechRxiv](https://www.techrxiv.org/articles/preprint/High-performance_Pixel-level_Grasp_Detection_based_on_Adaptive_Grasping_and_Grasp-aware_Network/14680455) | [Video](https://youtu.be/ccA1jkkbBJA)
+
+
+
 ## 1 dataset
 
 The dataset is publiced on https://drive.google.com/drive/folders/1knXlR72Z_5OcE9_lVfTz-QOZRhtWB_Yj?usp=sharing。
