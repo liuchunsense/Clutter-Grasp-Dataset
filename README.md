@@ -61,7 +61,7 @@ The format of files is the same as `clutter.zip`.
 
 ### 1.3 train-test.zip
 
-The zip file contains four folders：train-test-all、train-test-cornell、train-test-mutil、train-test-single.
+The zip file contains four folders：train-test-all, train-test-cornell, train-test-mutil, train-test-single.
 
 They save the test set and train set allocation when using the following four types of samples for training:
 
@@ -97,9 +97,9 @@ A version that can run on the ubuntu will be released in the future.
 ### run
 
 1. Modify the `path` on line 73 of `main_label.py` to your image path.
-2. run `main_label.py`, the labeling instructions are contained in the file。The `pcd\*Label.txt` file will be automatically saved under `path`.
+2. run `main_label.py`, the labeling instructions are contained in the file。The `pcd*Label.txt` file will be automatically saved under `path`.
 3. Modify `label_path` in `generate_grasp_mat.py` to your image path, and modify `save_path` to a custom path.
-4. run `generate_grasp_mat.py`，convert `pcd\*Label.txt` to `pcd\*grasp.mat`, they represent the same label, but the format is different, which is convenient for AFFGA-Net to read。`pcd\*grasp.mat` will be automatically saved under `save_path`.
+4. run `generate_grasp_mat.py`，convert `pcd*Label.txt` to `pcd*grasp.mat`, they represent the same label, but the format is different, which is convenient for AFFGA-Net to read。`pcd*grasp.mat` will be automatically saved under `save_path`.
 
 For the source code of AFFGA-Net, please visit https://github.com/liuchunsense/AFFGA-Net.
 
